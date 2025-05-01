@@ -4,7 +4,7 @@ import "fmt"
 
 func createBoardGame(rows, cols int) [][]int {
 	board := make([][]int, rows)
-	for indexRow := 0; indexRow < rows; indexRow++ {
+	for indexRow := range rows {
 		board[indexRow] = make([]int, cols)
 
 	}
